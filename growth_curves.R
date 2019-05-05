@@ -63,9 +63,6 @@ growth_3_5_19 <- readWorksheetFromFile("C:/Users/marce/OneDrive/curvas_comparaci
                                        sheet=2
 )
 
-growth_3_5_19 <- readWorksheetFromFile("C:/Users/marce/Desktop/curvas_comparacion_tratamientos.xlsx", 
-                                       sheet=2
-)
 growth_3_5_19
 
 str(growth_3_5_19)
@@ -110,3 +107,27 @@ ggplot(growth_3_5_19, aes(x=Hours, y=Biogas, colour=Treatment)) +
   scale_color_discrete(labels = c("Reemplazo", "Traspaso")) +
   theme_hc()
 
+
+######################################## Growth 4_5_19 ########################################
+
+growth_4_5_19 <- readWorksheetFromFile("C:/Users/marce/OneDrive/curvas_comparacion_tratamientos.xlsx", 
+                                       sheet=3
+)
+
+growth_4_5_19
+
+######################################## Growth 5_5_19 ########################################
+
+growth_5_5_19 <- readWorksheetFromFile("C:/Users/marce/OneDrive/curvas_comparacion_tratamientos.xlsx", 
+                                       sheet=4
+)
+
+growth_5_5_19
+
+######################################## Growth curve 6_5_19 ########################################
+
+growth_6_5_19 <- readWorksheetFromFile("C:/Users/marce/OneDrive/curvas_comparacion_tratamientos.xlsx", 
+                                       sheet=5
+)
+
+growth_6_5_19
